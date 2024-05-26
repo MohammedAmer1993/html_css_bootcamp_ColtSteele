@@ -54,10 +54,15 @@ img {
     height: 500px;
     border-radius: 25px;
     box-shadow: 15px 15px 20px whitesmoke;
+    object-fit: cover;
 }
 
 .grid {
     margin: 0px 12px 0px 12px;
+}
+
+.grid img:hover{
+    opacity: 0.9;
 }
 
 .side-div h2 {
@@ -67,16 +72,21 @@ img {
 
 
 
-#footer, #about {
-    margin: 30px 150px;
-    width: 400px;
-    height: 400px;
-    font-size: 25px;
+footer {
+    margin: 100px 200px;
+    display: inline-block;
+    width: 40%;
+    font-size: 40px;
+    font-weight: 300;
+    min-width: 600px
 }
 
-
-
-#about-para {
-    width: 95%;
+.caption span{
+    border-bottom: solid 1px black;
 }
 
+.contact {
+    font-size: 22px;
+    margin-top: 90px;
+    margin: 100px 0px;
+}
