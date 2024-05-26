@@ -1,0 +1,60 @@
+body {
+  font-family: "Cormorant", serif;
+}
+
+h1 {
+    display: inline-block;
+    padding: 30px;
+    margin: 0px;
+}
+
+nav {
+    display: inline-block;
+}
+
+span {
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.side-div {
+    width: 800px;
+    height: 800px;
+    display: inline-block;
+    margin: 40px 40px;
+}
+.main-div {
+    width: auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: inline-block;
+    padding: 30px;
+}
+label {
+    display: block;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color:  black;
+}
+
+#footer, #about {
+    margin: 30px 150px;
+    width: 400px;
+    height: 400px;
+    font-size: 25px;
+}
+
+label {
+    font-size: x-large;
+}
+
+#about-para {
+    width: 95%;
+}
