@@ -43,28 +43,19 @@ a.active {
 
 
 .side-div {
-    width: auto;
-    height: 800px;
+    width: 49.75%;
     display: inline-block;
-    margin: 40px 40px;
+    box-sizing: border-box;
+    padding: 20px;
 }
-.main-div {
-    width: auto;
-}
+
 img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: inline-block;
-    padding: 30px;
-}
-label {
-    display: block;
-    display: inline-block;
-    font-size: x-large;
-}
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px whitesmoke, -5px -5px 15px whitesmoke;
 
-
+}
 
 
 
