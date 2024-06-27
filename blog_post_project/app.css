@@ -1,0 +1,137 @@
+
+body {
+    font-family: "Mukta", sans-serif;
+}
+
+.father-main {
+    height: 100vb;
+    width: 100%;
+    padding: 1px;
+    background-color: #863ae8;
+}
+
+.son-main {
+    margin:400px auto;
+    color: white;
+}
+
+.son-main h1, .son-main p {
+    text-align: center;
+    color: black;
+    margin: 32px auto;
+    max-width: 900px;
+    color: inherit;
+}
+
+.son-main h1 {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.son-main p {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.in-hero {
+    width: 50%;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: start;
+    padding: 32px;
+}
+
+
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 42px;
+}
+
+h4 {
+    font-size: 36px;
+
+}
+
+h5 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 24px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    font-family: "Bitter", serif;
+}
+
+span {
+    color: #e95400;
+    font-weight: 700;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px ;
+}
+
+.top-para {
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.top-para span {
+    font-weight: 900;
+}
+
+.quote {
+    margin: 0px 32px;
+    padding: 20px;
+    font-style: italic;
+}
+
+.quote p {
+    border-left: 2px orange solid;
+    padding: 0px 20px;
+
+}
+
+.wise {
+    font-weight: bold;
+    color: black;
+
+}
+
+footer {
+    height: 100px;
+    background-color: #863ae8;
+}
+
+nav {
+    margin: 0px auto;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 40px 10px;
+    display: inline-block;
+}
+
+a:hover{
+    text-decoration: underline solid;
+    cursor: pointer;
+}
