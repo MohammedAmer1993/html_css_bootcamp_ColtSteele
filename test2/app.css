@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+}
+
+.inner {
+    border: 2px solid red;
+    height: 400px;
+    padding: 5%;
+    box-sizing: border-box;
+}

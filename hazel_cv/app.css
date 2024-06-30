@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+   font-family: "Forum", serif;
+}
+
+.hero-div {
+    background-color: #f08e80;
+    min-height: 100vh;
+}
+
+.hero-div > p {
+    color: white;
+    font-size: 4.5rem;
+    width: 70%;
+    padding: 100px 0px 40px 0px;
+    margin: 0px auto;
+    font-weight: bold;
+}
+
+.main-box {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.left-box {
+    display: inline-block;
+    width: 49%;
+    font-size: 2rem;
+    color: white;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.right-box {
+    display: inline-block;
+    width: 49%;
+    font-size: 2rem;
+    color: white;
+    vertical-align: top;
+    box-sizing: border-box;
+
+}
+
+.left-box > p , .right-box > p{
+    margin: 20px 0px;
+}
+
+.right-box ul {
+    list-style: none;
+    margin: 20px 0px;
+    padding: 0px;
+    line-height: 150%;
+}
+
+.right-box ul li {
+    display: inline-block;
+    width: 49%;
+    font-size: 1.25rem;
+}
+
+.p-next-ul {
+    line-height: 150%;
+}
+
+.left-box.inside {
+    color: black;
+    
+}
+.right-box.inside {
+    color: black;
+    font-size: 1rem;
+    
+}
+
+.right-box.inside h4 {
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.right-box.inside p {
+    margin: 10px 0px;
+}
+
+data {
+    color: grey;
+}
+
+.events {
+    background-color: #fdf0e6;
+    padding: 40px 0px;
+}
+
+.card {
+    margin: 25px 0px;
+}
+
+footer div {
+    color: white;
+    background-color: black;
+    padding: 64px;
+    text-align: center;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+}
