@@ -78,7 +78,6 @@ footer {
     width: 40%;
     font-size: 40px;
     font-weight: 300;
-    min-width: 600px
 }
 
 .caption span{
@@ -89,4 +88,47 @@ footer {
     font-size: 22px;
     margin-top: 90px;
     margin: 100px 0px;
+}
+
+
+
+@media only screen and (min-width: 451px) and (max-width: 1000px) {
+   
+
+    .side-div {
+    width: 99%;
+    margin: 0px;
+    padding: 0xp;
+    }
+
+
+    footer {
+        font-size: 32px;
+        margin-left: 60px;
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    footer {
+        font-size: 20px;
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    .side-div {
+    width: 98%;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    body {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .grid {
+    margin: 10px;
+}
 }
