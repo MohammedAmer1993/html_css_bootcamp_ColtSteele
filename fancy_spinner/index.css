@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spin {
+    width: 400px;
+    height: 400px;
+    background-image: conic-gradient(red, orange, yellow, pink);
+    animation: spin .5s ease infinite ;
+    border-radius: 50%;
+    position: relative;
+}
+
+.spin::before {
+    content: "";
+    background-color: rgb(184, 179, 179);
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
