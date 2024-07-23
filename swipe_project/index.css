@@ -26,6 +26,7 @@
     --secondary-text-size: 14px;
     --secondary-text-height: 18px;
     --brn-size: 16px;
+    --standard-width: 1144px;
     /* Spacing */
     --spacing-sm: 8px;
     --spacing-md: 16px;
@@ -41,6 +42,10 @@ body {
     margin: 0px;
     padding: var(--spacing-sm) 0px 0px 0px;
     background-color: var(--text-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -184,3 +189,40 @@ p {
     transform: translateX(4px);
 }
 
+/* Nav bar */
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: var(--standard-width);
+    padding: 0px var(--spacing-sm);
+}
+
+.links {
+    list-style: none;
+    padding: 0px;
+}
+.links li {
+    padding: 0px var(--spacing-md);
+    display: inline-block;
+    margin: none;
+}
+
+.links li a {
+    font-weight: bold;
+    color: var(--text-light);
+
+}
+.links li a:hover {
+    text-decoration: underline;
+}
+
+.navbar-btn {
+    background-color: rgba(250, 250, 250, .25);
+}
+
+.navbar-btn:hover {
+    background-color: rgba(250, 250, 250, .5);
+}
