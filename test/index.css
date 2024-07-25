@@ -1,27 +1,10 @@
-:root {
-    --color-me:4px dashed rgb(92, 221, 135);
-    --wid-l: 800px;
-    --wid-m: 400px;
+.container {
+    width: 500px;
+    height: 800px;
 }
 
-
-.box {
-    width: var(--wid-l);
-    height: 200px;
-    border:  var(--color-me)
-}
-
-button {
-    border: var(--color-me);
-}
-
-h1 {
-    border: var(--color-me);
-}
-
-@media only screen and (max-width: 600px)
-{
-    :root {
-        --wid-l: var(--wid-m);
-    }
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
